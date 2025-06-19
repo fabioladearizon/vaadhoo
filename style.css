@@ -242,6 +242,12 @@ body {
 }
 
 /* ---------- MENU BURGER ---------- */
+.menu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 .header {
   position: relative;
   width: 100%;
