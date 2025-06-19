@@ -42,6 +42,12 @@ nav ul li a:hover,
 nav ul li a.actif {
   color: #6dd5ed;
 }
+.menu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 
 /* ------------------- */
 /* HERO ACCUEIL */
