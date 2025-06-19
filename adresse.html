@@ -5,20 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adresse – Vaadhoo, Sea of Stars</title>
   <link rel="stylesheet" href="style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="page-secondaire fond-adresse">
 
-
-  <!-- Menu commun -->
-  <header>
-    <nav>
+  <!-- MENU BURGER -->
+  <header class="header">
+    <div class="burger" onclick="toggleMenu()">☰</div>
+    <nav class="menu" id="menu">
       <ul>
         <li><a href="index.html">Accueil</a></li>
         <li><a href="adresse.html">Adresse</a></li>
         <li><a href="dresscode.html">Inspiration</a></li>
         <li><a href="reponse.html">Réponse</a></li>
-        <li><a href="photos.html">Photos</a></li>   
+        <li><a href="photos.html">Photos</a></li>
       </ul>
     </nav>
   </header>
@@ -42,8 +41,14 @@
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </div>
-
   </main>
 
+  <!-- SCRIPT POUR LE MENU BURGER -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("menu");
+      menu.classList.toggle("show");
+    }
+  </script>
 </body>
 </html>
