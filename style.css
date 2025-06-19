@@ -136,9 +136,9 @@ body.page-secondaire {
   margin: 0;
   font-family: 'Georgia', serif;
   color: #ffffff;
-  padding-top: 80px;
   background: #021233;
 }
+
 
 body.page-secondaire:not(.page-reponse):not(.fond-photos) {
   background: url('images/fond_dresscode.jpg') no-repeat center center fixed;
